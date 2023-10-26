@@ -1,6 +1,5 @@
 import streamlit as st
 import pickle
-pip install joblib
 import joblib
 
 spo2=joblib.load(open("F:\spo2\spo2.pkl", 'rb'))
