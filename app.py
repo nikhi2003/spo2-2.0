@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import joblib
 
-spo2=joblib.load(open("F:\spo2\spo2.pkl", 'rb'))
+spo2=joblib.load(open("spo2.pkl", 'rb'))
 
 
 
